@@ -1,5 +1,6 @@
 import styles from './HeroStyles.module.css';
 import zachHero from '../../assets/hero.png'
+import zachPic from '../../assets/face.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -23,7 +24,7 @@ function Hero() {
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          src={zachHero}
+          src={zachPic}
           className={styles.hero}
           alt="Profile picture of Zachary Huard"
         />
@@ -53,7 +54,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Skilled guitarist, cabinetmaker and web/app developer with a passion for problem-solving, precision and design. 
+          I'm a web developer with 2 years of experience creating beautiful, responsive
+          websites and applications.
         </p>
         <a href={resume} download>
           <button className="hover">Resume</button>

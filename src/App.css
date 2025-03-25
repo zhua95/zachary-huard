@@ -18,6 +18,8 @@
     --footer-text-color: #bbb;
 }
 
+
+
 body {
     background-color: var(--background-color);
     display: flex;
@@ -28,7 +30,7 @@ body {
 #root{
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 20px;
 }
 
 h1,
@@ -38,14 +40,15 @@ p {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    font-family: 'Playwrite HU', cursive;
 }
 
 h2, h3, p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Playwrite HU', cursive;
 }
 
-h1,
-h2 {
+h1
+ {
     text-transform: uppercase;
 }
 
@@ -54,7 +57,7 @@ h2, h3 {
 }
 
 h1 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Playwrite HU', cursive;
     font-size: 32px;
 }
 
@@ -75,7 +78,7 @@ p {
 
 @media (width >= 800px) {
     #root{
-        gap:100px;
+        gap:75px;
 
     }
     h1{

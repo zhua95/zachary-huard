@@ -25,6 +25,7 @@ function Skills() {
         <div className={styles.skillList}>
             <SkillList src={htmlIcon} skill="HTML" />
             <SkillList src={cssIcon} skill="CSS" />
+            <SkillList src={cssIcon} skill="TailwindCSS" />
             <SkillList src={jsIcon} skill="JavaScript" />
         </div>
         <hr />
@@ -36,6 +37,8 @@ function Skills() {
         </div>
         <hr />
         <div className={styles.skillList}>
+            <SkillList src={awsIcon} skill="Next.JS" />
+            <SkillList src={awsIcon} skill="Express" />
             <SkillList src={awsIcon} skill="AWS" />
             <SkillList src={gitIcon} skill="Git" />
         </div>

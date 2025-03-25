@@ -3,6 +3,11 @@
     flex-direction: column;
     text-align: center;
 
+    h1{
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+    }
+
 }
 
 form{
@@ -35,6 +40,12 @@ textarea{
     color: var(--form-text-color);
 }
 
+textarea::placeholder,
+input:not([type='submit'])::placeholder {
+    font-family: 'Playwrite HU', cursive; /* Apply Playwrite HU font */
+    color: var(--form-text-color); /* Keep the existing color */
+}
+
 :placeholder{
     color: var(--form-text-color);
 
@@ -45,6 +56,7 @@ input[type='submit']{
         color: var(--btn-text-color);
         border: none;
         border-radius: 20px;
+        font-family: 'Playwrite HU', cursive;
         width: 126px;
         height: 50px;
         font-size: 20px;
