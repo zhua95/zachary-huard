@@ -24,7 +24,7 @@ function Hero() {
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          src={zachPic}
+          src={zachHero}
           className={styles.hero}
           alt="Profile picture of Zachary Huard"
         />
@@ -49,7 +49,7 @@ function Hero() {
           <a href="https://github.com/zhua95" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="www.linkedin.com/in/zachary-huard-633b27281" target="_blank">
+          <a href="https://linkedin.com/in/zachary-huard-633b27281" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
